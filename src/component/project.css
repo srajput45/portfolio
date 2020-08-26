@@ -1,0 +1,12 @@
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.projectList div{
+    margin: 10px 10px 10px 10px;
+    float: left;
+    margin-left: 3.8%;
+    border: solid 2px purple;
+}

@@ -1,0 +1,13 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    margin: 7%;
+    margin-top: 0;
+}
+.right img {
+    margin-left: 10%;
+    max-width: 50%;
+    height: auto;
+    border: solid 4px;
+    border-radius: 50%;
+}

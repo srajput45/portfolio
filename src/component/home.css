@@ -1,0 +1,56 @@
+.home{
+    height: 100px;
+    display: flex;
+    margin: 50px;
+   /* flex-direction: column;*/
+}
+.intro{
+    margin: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.homeRight{
+    margin-right: 7%;
+}
+.homeRight img {
+    max-width: 100%;
+    height: auto;
+    border: solid 4px peru;
+    border-radius: 50%;
+}
+.homeLeft{
+    margin: 30px;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.subSocial{
+    padding: 10px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.logos div{
+    margin: 10px;
+}
+.skillHeading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+ }
