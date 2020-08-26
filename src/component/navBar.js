@@ -7,7 +7,7 @@ class NavBar extends Component {
         class="navbar navbar-expand-lg navbar-light "
         style={{ height: 50, padding: 30, margin: 20, fontSize: 25 }}
       >
-        <Link class="navbar-brand" style={{ fontSize: 30 }} to="/">
+        <Link class="navbar-brand" style={{ fontSize: 30 }} to="/home">
           Shubham Rajput
         </Link>
         <div class="collapse navbar-collapse" id="navbarNav">
