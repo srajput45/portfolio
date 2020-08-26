@@ -41,7 +41,7 @@ class Home extends Component {
             </div>
             <div className="socialMedia">
               <a
-                href="https://docs.google.com/document/d/1sWRH3UY48E41Xik5h9hxB0npAClC_ghQb1c1kRQ7OJU/edit?usp=sharing"
+                href="https://drive.google.com/file/d/19FSnuBb17NKludv5cCFRajDcwL7ZmD9s/view?usp=sharings"
                 style={{
                   backgroundColor: "#55198b",
                   border: "solid #55198b",
