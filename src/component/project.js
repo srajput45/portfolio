@@ -5,7 +5,7 @@ class Project extends Component {
     return (
         <div class="container" className="projectList">
           <div class="card" >
-            <a href="https://github.com/srajput45/Scribbler" target="_blank">
+            <a href="https://srajput45.github.io/Scribbler/" target="_blank">
               <img src="https://gh-card.dev/repos/srajput45/Scribbler.svg" />
             </a>
           </div>
@@ -15,12 +15,12 @@ class Project extends Component {
             </a>
           </div>
           <div class="card" >
-            <a href="https://github.com/srajput45/react-movies-app" target="_blank">
+            <a href="https://srajput45.github.io/react-movies-app/" target="_blank">
               <img src="https://gh-card.dev/repos/srajput45/react-movies-app.svg" />
             </a>
           </div>
           <div class="card" >
-            <a href="https://github.com/srajput45/recipe-finder" target="_blank">
+            <a href="https://srajput45.github.io/Recipe/" target="_blank">
               <img src="https://gh-card.dev/repos/srajput45/recipe-finder.svg" />
             </a>
           </div>

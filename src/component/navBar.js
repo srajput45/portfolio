@@ -1,35 +1,34 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
+import {Navbar,Nav} from 'react-bootstrap'
+import {NavLink} from 'react-router-dom'
 class NavBar extends Component {
   render() {
     return (
-      <nav
-        class="navbar navbar-expand-lg navbar-light "
-        style={{ height: 50, padding: 30, margin: 20, fontSize: 25 }}
-      >
-        <Link class="navbar-brand" style={{ fontSize: 30 }} to="/">
-          Shubham Rajput
-        </Link>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <Link class="nav-link" to="/home">
-                Home
-              </Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/project">
-                Project
-              </Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/about">
-                About
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <Navbar
+          collapseOnSelect
+          bg="navbar navbar-light navbar-expand-sm shadow-sm p-2 bg-white rounded"
+          expand="lg"
+          sticky="top"
+        >
+          <NavLink to="/" className="navbar-brand text-dark">
+            Shubham Rajput
+          </NavLink>{" "}
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              <NavLink to="/home" className="navbar-brand text-dark">
+                <Navbar.Text>Home</Navbar.Text>
+              </NavLink>
+              <NavLink to="/project" className="navbar-brand text-dark">
+                <Navbar.Text>Projects</Navbar.Text>
+              </NavLink>
+              <NavLink to="/about" className="navbar-brand text-dark">
+                <Navbar.Text>About</Navbar.Text>
+              </NavLink>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
     );
   }
 }
