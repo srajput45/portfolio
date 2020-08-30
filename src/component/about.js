@@ -1,11 +1,11 @@
 import React, { Component } from "react";
+import {Container} from 'react-bootstrap';
 import  Man2  from "../images/man2.svg";
 import './about.css'
 class About extends Component {
   render() {
     return (
-      <React.Fragment>
-        <div class="container" className="about">
+        <Container className="about">
           <div class="row" className="left">
             <div class="col" sm={8}>
               <h1>
@@ -36,9 +36,7 @@ class About extends Component {
           <div className="right">
             <img src={Man2}></img>
           </div>
-        </div>
-        <hr />
-      </React.Fragment>
+        </Container>
     );
   }
 }

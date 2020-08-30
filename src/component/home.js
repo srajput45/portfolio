@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import "./home.css";
+import {Container} from 'react-bootstrap';
+//Following images are usede for skills
 import Man2 from "../images/Shubham Image.jpg";
 import RLogo from "../images/reactlogo.png";
 import HLogo from "../images/html.png";
 import ALogo from "../images/androidlogo.png";
 import JsLogo from "../images/jslogo.png";
-import { SocialMediaIconsReact } from "social-media-icons-react";
+import { SocialMediaIconsReact } from "social-media-icons-react"; //this is use for the icons of social links
 class Home extends Component {
   render() {
     return (
-      <React.Fragment>
-        <div className="home">
+        <Container className="home"> {/* The main screen id divide into two part leaft and right. One for the info and other for the image/social links */}
           <div className="homeLeft">
             <div className="name">
               <h1>Hola, I'm Shubham</h1>
@@ -39,7 +40,7 @@ class Home extends Component {
                 <img src={ALogo}></img>
               </div>
             </div>
-            <div className="socialMedia">
+            <div className="socialMedia"> {/*Google Drive Link for resume */}
               <a
                 href="https://drive.google.com/file/d/19FSnuBb17NKludv5cCFRajDcwL7ZmD9s/view?usp=sharings"
                 style={{
@@ -101,8 +102,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
-        </div>
-      </React.Fragment>
+        </Container>
     );
   }
 }
